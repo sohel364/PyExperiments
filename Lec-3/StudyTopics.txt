@@ -1,0 +1,17 @@
+- String
+- String slicing
+- List
+- List traversing
+- Slicing list
+- Dictionary
+- Sequence
+- Touple
+- System Design
+- Loop
+ Loop Control statements
+   - break statement
+   - continue statement
+   - pass statement
+- Add number 1....n
+
+## Python Data type wise operations
