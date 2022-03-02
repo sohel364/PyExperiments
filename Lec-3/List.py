@@ -1,29 +1,8 @@
-##compare with user defined com funciton
-def cmp(a, b):
-    return (a > b) - (a < b) #
-l1, l2  = [1,2,3,4], [1,2,3,4]
-#with the defined comapre function
-print(cmp(l1, l2))
-#with the == operaiton
-print(l1==l2)
-
-## Let's know how lamda works
-#let's define a function
-def Add(a, b) :
-    return a + b
-
-#let's use Add it
-print('Add using function : ' + str(Add(12, 13)))
-
-
-# What is a lamda : A lamda is a short block of code which takes in parameter and returns value.
-#It's like methods, but they do not need a name and they can be implemented right in the body of a method
-# parameter -> expression
-
-func = lambda a, b: a+b
-
-print('Add Using lamda : ' + str(func(12, 13)))
-
-#Reduce function
-#Reference https://www.geeksforgeeks.org/reduce-in-python/
-
+#Declaring List in diffrent ways
+print('Let\'s see diffrent types of List :')
+EmptyList = [] #empty list
+print("An empty List: {0}".format(EmptyList)) # Formatted string
+ListOfSameType = [1,2,3,4,5]
+print('List of similar types of item : {0}'.format(ListOfSameType))
+ListOfMixedType = [0.0, 1.2, 3, 4, 5, 'globe', 'sky', bool]
+print('List of mixed type of item : {0}'.format(ListOfMixedType))
