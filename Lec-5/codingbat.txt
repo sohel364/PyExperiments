@@ -1,0 +1,10 @@
+def close_far(a, b, c):
+    flag_a = False
+    if abs(a-b) >=2 and abs(a-c) >=2 : # cond-1
+        flag_a = True
+
+    if abs(b-c) <= 2: # cond-2 , b,c should be closed
+        if flag_a == True : 
+            return True
+        else : 
+            return False
