@@ -1,11 +1,11 @@
 class Employee(object) :
+    "Class to represent a employee class"
     def __init__(self, name, department, designation, age) -> None:
-        self.name = name
-        self.designation = designation
-        self.department = department
-        self.age = age
-        self._salary = 10000
-                
+        self.m_name = name
+        self.m_designation = designation
+        self.m_department = department
+        self.m_age = age
+        
     def DisplayEmployeeInfo(self):
         self.orphanItem = 10
         if self.age > 35 :
