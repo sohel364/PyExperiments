@@ -7,13 +7,10 @@ class Employee(object) :
         self.m_age = age
 
     def DisplayEmployeeInfo(self):
-        self.orphanItem = 10
-        if self.age > 35 :
-            print("Employee details", self.name, self.designation, self.department, self.age)
-        else :
-            print("There was no one above 35 !")
+            print(f"Employee details {self.m_name}")
+
 
 
 e1 = Employee('mhas', 'mis', 'se', 35)
 e1.DisplayEmployeeInfo()
-print(e1.orphanItem)
+#print(e1.orphanItem)
