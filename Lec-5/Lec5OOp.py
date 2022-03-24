@@ -5,11 +5,15 @@ class Employee(object) :
         self.m_designation = designation
         self.m_department = department
         self.m_age = age
-
+        
     def DisplayEmployeeInfo(self):
             print(f"Employee details {self.m_name}")
 
-
+    def PublicApi():
+        print('I am a public API')
+    
+    def _PrivateApi():
+        print('I am a private API')
 
 e1 = Employee('mhas', 'mis', 'se', 35)
 e1.DisplayEmployeeInfo()
