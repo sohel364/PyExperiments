@@ -1,5 +1,4 @@
 import mysql.connector
-
 connection = mysql.connector.connect(host='localhost', user='root', password='admin')                            
 mycursor = connection.cursor()
 mycursor.execute("SHOW DATABASES")
