@@ -6,6 +6,11 @@ mycursor.execute("SHOW DATABASES")
 for database in mycursor :
     print(database)
 
+mycursor.execute("USE student_db")
+mycursor.execute("show tables")
+
+for table in mycursor :
+    print(database)
 
 
 #Connection by json configuration
