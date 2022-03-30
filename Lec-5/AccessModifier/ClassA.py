@@ -1,4 +1,4 @@
-class A :
+class A :    
     def funcPublic(self):
         print('this is public function')
     def __functionPrivate(self):

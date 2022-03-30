@@ -1,8 +1,12 @@
-import Lec5OOp
-from Lec5OOp import *
+# >>a = 10
+# >>b = 20
+#print(_) # thorws an error
+# >>a+b
+#print(_) # prints an error
+#_ prints the last executed value
 
-empObj = Lec5OOp.Employee('sohel', 'cpp', 'se', 32)
+# for igonoring
+mylist = {10, 20, 30}
 
-print(empObj._salary)
-empObj.PublicApi()
-empObj._PrivateApi()
+for _ in range(10):
+    print('test')
