@@ -1,1 +1,2 @@
-/Lec-4/__pycache__
+**/*.pyc
+**/__pycache__
