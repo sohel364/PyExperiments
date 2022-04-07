@@ -52,3 +52,6 @@ drop constraint fk_student_department
 #ALTER TABLE 
 alter table students
 	change column oldColumnName newColumnName date
+    
+    
+    
