@@ -52,6 +52,39 @@ drop constraint fk_student_department
 #ALTER TABLE 
 alter table students
 	change column oldColumnName newColumnName date
-    
-    
-    
+
+#count rows 
+select count(*) from employees
+# Example : Select distinct first name count from employee table 
+select count(distinct employees.FIRST_NAME) from employees  
+
+# Example : select employees ording by hired date
+select FIRST_NAME, HIRE_DATE from employees order by employees.HIRE_DATE desc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
