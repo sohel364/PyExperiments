@@ -22,3 +22,9 @@ where departments.DEPARTMENT_ID = employees.DEPARTMENT_ID
 select empT1.EMPLOYEE_ID, empT2.FIRST_NAME, empT1.SALARY
 from employees empT1, employees empT2
 where empT1.SALARY < empT2.SALARY
+
+
+
+select employees.FIRST_NAME, employees.SALARY
+from employees where SALARY > (select avg(SALARY) from employees)
+order by SALARY desc
